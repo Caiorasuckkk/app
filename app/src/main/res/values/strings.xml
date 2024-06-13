@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app_project</string>
+    <string name="hint_email">Email</string>
+    <string name="Principal">Avaliapp</string>
+    <string name="text_esqueceu">Esqueceu a senha?</string>
+    <string name="acessar">Acessar Conta</string>
+</resources>
