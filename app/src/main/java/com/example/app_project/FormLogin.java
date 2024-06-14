@@ -1,5 +1,6 @@
 package com.example.app_project;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -71,7 +72,7 @@ public class FormLogin extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
 
-
+                  TelaPrincipal();
 
 
 
@@ -94,9 +95,18 @@ public class FormLogin extends AppCompatActivity {
 
 
     }
+      private void TelaPrincipal(){
+         Intent intent = new Intent(FormLogin.this, Menu.class);
+           startActivity(intent);
+           finish();
 
-    private void IniciarComponentes() {
-        edit_email=findViewById(R.id.edit_email);
+
+
+         }
+
+       private void IniciarComponentes() {
+
+         edit_email=findViewById(R.id.edit_email);
         edit_senha=findViewById(R.id.edit_senha);
         button_acesso=findViewById(R.id.button_acesso);
         progress_bar=findViewById(R.id.progress_bar);

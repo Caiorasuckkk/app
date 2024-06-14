@@ -4,4 +4,8 @@
     <string name="Principal">Avaliapp</string>
     <string name="text_esqueceu">Esqueceu a senha?</string>
     <string name="acessar">Acessar Conta</string>
+    <string name="gestor_txt">Área do Gestor</string>
+    <string name="form_txt">Formularios</string>
+    <string name="avisos_txt">Avisos</string>
+    <string name="hora_txt">Horários</string>
 </resources>

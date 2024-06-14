@@ -40,6 +40,31 @@
         <item name="android:textSize">52dp</item>
     </style>
 
+    <style name="topo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@drawable/top</item>
+    </style>
+    <style name="Formulario">
+        <item name="android:background">@drawable/container_form</item>
+        <item name="android:layout_height">230dp</item>
+        <item name="android:layout_width">170dp</item>
+    </style>
+
+    <style name="Formulario2">
+        <item name="android:background">@drawable/container_form</item>
+        <item name="android:layout_height">230dp</item>
+        <item name="android:layout_width">170dp</item>
+    </style>
+    <style name="gestor">
+
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_width">111dp</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+
 
 
 
